@@ -9,6 +9,8 @@
 #' myNumbers <- c(7,6,6,10,6,6,7,3,7,14,20,7)
 #' myMode(myNumbers)
 #======================================== Monobin function=================================
+# Inspired by statcompute
+# https://statcompute.wordpress.com/2017/01/22/monotonic-binning-with-smbinning-package/
 
 monoBin <- function(data, y, x, s = 3) {
   d1 <- data[c(y, x)]

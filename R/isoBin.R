@@ -9,6 +9,8 @@
 #' myNumbers <- c(7,6,6,10,6,6,7,3,7,14,20,7)
 #' myMode(myNumbers)
 #======================================== Isobin function=================================
+# Inspired by statcompute
+# https://statcompute.wordpress.com/2017/06/15/finer-monotonic-binning-based-on-isotonic-regression/
 
 isoBin <- function(data, y, x) {
   d1 <- data[c(y, x)]
