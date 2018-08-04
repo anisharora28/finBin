@@ -1,0 +1,10 @@
+Package: finBin
+Title: Automated optimized binning for GLM
+Version: 0.0.0.9000
+Authors@R: c(person("Anish", "Arora", email = "Anish.Arora@4finance.com", role = c("aut", "cre")),person("Gayan", "de Silva", email = "Gayan.DeSilva@4finance.com", role = c("ctb", "ths")),person("4finance", role = "fnd"))
+Description: Binning is a crucial part of scorecard. Our objective is to optimize binning to get the best-trained glm model
+Depends: R (>= 3.4.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
